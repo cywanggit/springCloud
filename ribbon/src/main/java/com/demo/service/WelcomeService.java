@@ -11,6 +11,6 @@ public class WelcomeService {
     private RestTemplate restTemplate;
 
     public String welcome(){
-        return restTemplate.getForObject("http://springcloud/say",String.class);
+        return restTemplate.getForObject("http://SPRINGCLOUD/say",String.class);
     }
 }
